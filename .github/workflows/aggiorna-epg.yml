@@ -1,0 +1,36 @@
+name: Aggiorna EPG unificato
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    paths:
+      - 'tools/build_epg.py'
+      - '.github/workflows/aggiorna-epg.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Genera EPG e aggiorna M3U
+        run: python tools/build_epg.py
+
+      - name: Commit risultati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg_italia_unificato.xml epg_italia_unificato.xml.gz Proiettore_SSIPTV_01_LOGHI_FIX7_EPG.m3u
+          git diff --cached --quiet || git commit -m "Aggiorna EPG unificato"
+          git push
