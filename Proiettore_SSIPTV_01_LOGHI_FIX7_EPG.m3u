@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/dambro23/tv/main/epg_italia_unificato.xml.gz"
 
 #EXTINF:-1 group-title="Nazionali" tvg-name="Rai 1 HD" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/1-rai1hd.png" tvg-id="Rai.1.HD..101.it" tvg-chno="1",Rai 1 HD
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -73,7 +73,7 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 
-#EXTINF:-1 group-title="Nazionali" tvg-name="TV 2000" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/28-tv2000.png" tvg-chno="28",TV2000
+#EXTINF:-1 group-title="Nazionali" tvg-name="TV 2000" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/28-tv2000.png" tvg-chno="28" tvg-id="TV2000.it",TV2000
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
@@ -175,7 +175,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8
 
-#EXTINF:-1 group-title="Nazionali" tvg-name="Italia 53" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/53-italia53.png" tvg-chno="53",Italia 53
+#EXTINF:-1 group-title="Nazionali" tvg-name="Italia 53" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/53-italia53.png" tvg-chno="53" tvg-id="Italia53.it",Italia 53
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://liveac115b.b-cdn.net/canale3.smil/chunklist_b1100000.m3u8
@@ -210,15 +210,15 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Nazionali" tvg-name="iL61" tvg-logo="https://www.grupposciscione.it/wp-content/uploads/2025/07/IL-61-CANALE.png" tvg-chno="61",iL61
+#EXTINF:-1 group-title="Nazionali" tvg-name="iL61" tvg-logo="https://www.grupposciscione.it/wp-content/uploads/2025/07/IL-61-CANALE.png" tvg-chno="61" tvg-id="iL61.it",iL61
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://5a1178b42cc03.streamlock.net/travel/travel/chunklist_w2126077193.m3u8
 
-#EXTINF:-1 group-title="Nazionali" tvg-name="DonnaTV Italia" tvg-logo="https://donnatv.com/wp-content/uploads/2021/02/cropped-Logo-donna-tv-200x46.png" tvg-chno="62",Donna TV
+#EXTINF:-1 group-title="Nazionali" tvg-name="DonnaTV Italia" tvg-logo="https://donnatv.com/wp-content/uploads/2021/02/cropped-Logo-donna-tv-200x46.png" tvg-chno="62" tvg-id="DonnaTV.it",Donna TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8
 
-#EXTINF:-1 group-title="Nazionali" tvg-name="IlSole24OreTV" tvg-logo="https://ilsole24ore.tv/assets/img/logo-radio24TV.png" tvg-chno="63",IlSole24OreTV
+#EXTINF:-1 group-title="Nazionali" tvg-name="IlSole24OreTV" tvg-logo="https://ilsole24ore.tv/assets/img/logo-radio24TV.png" tvg-chno="63" tvg-id="IlSole24OreTV.it",IlSole24OreTV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master-3500.m3u8
 
@@ -227,11 +227,11 @@ https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master-
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
-#EXTINF:-1 group-title="Nazionali" tvg-name="Alma TV" tvg-logo="https://sportitaliadd.akamaized.net/video_0/custom/logo/logo_cust_45.png" tvg-chno="65",Alma TV
+#EXTINF:-1 group-title="Nazionali" tvg-name="Alma TV" tvg-logo="https://sportitaliadd.akamaized.net/video_0/custom/logo/logo_cust_45.png" tvg-chno="65" tvg-id="AlmaTV.it",Alma TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 
-#EXTINF:-1 group-title="Radio e altri" tvg-id="Radio.105.it" tvg-name="Radio 105 TV" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/66-radio105.png" tvg-chno="66",Radio 105
+#EXTINF:-1 group-title="Radio e altri" tvg-id="Radio105.it" tvg-name="Radio 105 TV" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/66-radio105.png" tvg-chno="66",Radio 105
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
@@ -241,7 +241,7 @@ https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd
 
-#EXTINF:-1 group-title="Radio e altri" tvg-name="Bom Channel" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/68-bomchannel.png" tvg-chno="68",Bom Channel
+#EXTINF:-1 group-title="Radio e altri" tvg-name="Bom Channel" tvg-logo="https://raw.githubusercontent.com/westest85/iptv-free-ita/main/png/68-bomchannel.png" tvg-chno="68" tvg-id="BomChannel.it",Bom Channel
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
@@ -256,6 +256,6 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/p
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 
-#EXTINF:-1 group-title="Radio e altri" tvg-id="MTVCatfishTVShow.de@IT" tvg-name="Catfish" tvg-logo="https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/logo.png?fit=fill&fm=png&h=80&w=280" tvg-chno="71",Catfish (Pluto TV)
+#EXTINF:-1 group-title="Radio e altri" tvg-id="Catfish.pluto.it" tvg-name="Catfish" tvg-logo="https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/logo.png?fit=fill&fm=png&h=80&w=280" tvg-chno="71",Catfish (Pluto TV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://jmp2.uk/plu-6093f9ed2c75660007322bb7.m3u8
